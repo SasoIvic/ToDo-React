@@ -1,0 +1,24 @@
+@import 'styles/colors.scss';
+
+.description {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: $outline-color;
+  margin-bottom: 20px;
+}
+
+.category {
+  background-color: $primary-color-dark1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 30px 10px;
+}
+
+.datePickerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
