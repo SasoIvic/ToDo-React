@@ -11,8 +11,7 @@ const app = express();
 app.use(bodyParser.json());
 
 //Database
-const connectionString = "mongodb+srv://spletnoUser:spletno123@cluster0.hcfyr.mongodb.net/spletno?retryWrites=true&w=majority";
-//"mongodb+srv://dbChallenger:dbChallengerPassword@cluster0-jjbhb.azure.mongodb.net/test?retryWrites=true&w=majority";
+const connectionString = "databaseConnection";
 mongoose.connect(process.env.MONGODB_URI || connectionString, {
   useNewUrlParser: true,
   useFindAndModify: true,
