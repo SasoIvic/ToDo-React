@@ -1,1 +1,0 @@
-mongodb+srv://spletnoUser:spletno123@cluster0.hcfyr.mongodb.net/spletno?retryWrites=true&w=majority

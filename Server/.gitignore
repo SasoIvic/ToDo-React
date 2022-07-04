@@ -2,9 +2,9 @@
 
 # dependencies
 /node_modules
+/db
 /.pnp
 .pnp.js
-./databeseConnection.txt
 
 # testing
 /coverage
